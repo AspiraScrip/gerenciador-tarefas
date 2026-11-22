@@ -77,16 +77,4 @@ tarefas/
 ```
 As regras garantem que cada usuário só leia/escreva o próprio nó (`auth.uid === $uid`).
 
-## Capturas de tela
-Salve as capturas na pasta `screenshots/` (login, cadastro, home, drawer, lista, detalhes,
-cadastro/edição de tarefa, tema escuro, Realtime Database no console).
 
-## Roteiro do vídeo de demonstração
-1. Cadastro de um usuário.
-2. Login com e-mail e senha.
-3. Cadastro de pelo menos duas tarefas.
-4. Edição e exclusão de uma tarefa.
-5. Tarefas no ListView.
-6. Logout e login novamente.
-7. Tema escuro em Configurações → fechar e reabrir o app (o tema permanece).
-8. Console do Firebase mostrando os dados em `tarefas/{uid}` (e o usuário em Authentication).
